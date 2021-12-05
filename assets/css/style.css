@@ -1,0 +1,70 @@
+/* universal css styles */
+    * {
+        margin: 0;
+        padding: 0;
+        Box-sizing: border-box;
+    }
+    :root {
+        --gold: rgba(190, 161, 29, 0.993);
+        --black: rgb(29, 27, 23);
+    }
+    body {
+        color: var(--gold);
+        background-color: rgb(209, 207, 207);
+        font-family: Helvetica, Arial, sans-serif;
+    }
+    section {
+        padding: 60px;
+    }
+
+/* header css styles */
+    header {
+        padding: 50px 35px;
+        background-color: var(--black);
+        display: flex;
+        justify-content: space-between;
+    }
+    header h1 {
+        font-weight: bold;
+        font-size: 40px;
+        display:inline-flex;
+    }
+    header h1 a {
+        color: var(--gold);
+        text-decoration: none;
+    }
+    header nav {
+        float: right;
+        margin: 10px 0;
+    }
+    header nav ul li {
+        display: inline;
+    }
+    header nav a {
+        margin: 0 30px;
+        font-weight: lighter;
+        font-size: 26px;
+        color: var(--gold);
+        text-decoration: none;
+    }
+
+/* hero section css styles */
+    .hero {
+        background-image: url("../images/1943908-astratto-vettore-giallo-geometrico-sfondo-sovrapposizione-nero-esagono-strato-vettoriale\ -\ Copy.jpg");
+        height: 400px;
+        background-size: cover;
+        display: flex;
+        flex: 1 1 1;
+    }
+
+/* about me section css styles */
+    .h2-div {
+        display: flex;
+        justify-content: center;
+    }
+    .about-me h2 {
+        font-size: 32px;
+        border-bottom: 4px solid var(--black);
+        width: 200px;
+        margin: 15px;
+    }
