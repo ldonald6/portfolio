@@ -58,13 +58,129 @@
     }
 
 /* about me section css styles */
-    .h2-div {
+    .about-me {
         display: flex;
         justify-content: center;
+        flex-direction: column;
     }
     .about-me h2 {
-        font-size: 32px;
+        font-size: 60px;
         border-bottom: 4px solid var(--black);
-        width: 200px;
-        margin: 15px;
+        width: 45%;
+        margin-bottom: 140px;
+        align-self: center;
+        text-align: center;
+        display: inline-block;
+    }
+    .about-me-wrap {
+        display: inline-flex;
+        align-content: center;
+    }
+    .about-me-context {
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 70px;
+    }
+    .about-me img {
+        border-radius: 50%;
+        margin-right: 140px;
+        margin: 0 140px 0 60px;
+    }
+    .about-me-context h3 {
+        text-align: center;
+        font-size: 30px;
+        margin: 40px 0 15px 0px;
+    }
+    .about-me p {
+        text-align: center;
+        font-size: 18px;
+        margin: 40px 0 15px 0px;
+        color: black;
+    }
+
+/* work section css styles */
+    .work {
+        margin-top: 50px;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+    .work h2 {
+        font-size: 40px;
+        align-self: center;
+        text-align: center;
+        display: inline;
+        width: 65%;
+        border-bottom: 4px solid var(--black);
+        margin-bottom: 70px;
+    }
+    .work h3 {
+        font-size: 30px;
+        text-align: center;
+        margin: 15px 0;
+    }
+    .heading-project img {
+        border: 6px solid var(--gold);
+        border-radius: 2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .sub-projects {
+        flex-direction: row;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .sub-project-item {
+        width: 80%;
+        text-align: center;
+    }
+    .sub-projects img {
+        width: 80%;
+        display: flex;
+        display: inline;        
+    }
+    .work a {
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+/* footer css styles */
+    .contact-me {
+        background-color: var(--black);
+        display: flex;
+        flex-direction: column;
+        padding: 30px 35px;
+    }
+    .contact-me h2 {
+        font-size: 40px;
+        align-self: center;
+        text-align: center;
+        display: inline;
+        width: 50%;
+        border-bottom: 4px solid rgb(119, 85, 0);
+        margin-top: 30px;
+    }
+
+    .contact-me div {
+        flex-direction: row;
+        align-content: center;
+        align-self: center;
+    }
+    .contact-me li {
+        display: inline-block;
+        margin: 50px 25px;
+    }
+    .contact-me a {
+        text-decoration: none;
+        color: var(--gold);
+        font-size: 20px;
+        justify-content: space-evenly;
     }
